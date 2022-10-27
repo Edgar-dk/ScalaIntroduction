@@ -55,7 +55,7 @@ object anonymity {
     println(dualEval(sum,12,3))
 
     /*6.将函数，作为返回值类型返回*/
-    def f2():Int=>Unit={
+    def f2():Int=>Unit ={
       def f3(a:Int):Unit={
         println("f3被调用了",a)
       }
@@ -74,6 +74,9 @@ object anonymity {
     println(f3(345))
     /*03.上面一个println也可以写成下面的方式*/
     println(f2()(4))
+
+
+
   }
 
 }
