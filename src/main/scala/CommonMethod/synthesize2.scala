@@ -28,3 +28,4 @@ object synthesize2 {
     println(map3)
   }
 }
+

@@ -53,7 +53,8 @@ object synthesize1 {
     /*01.元组的方式去排列数据（第一种方式比较繁琐，
          第二种方式，按照第二种数据去比较，）*/
     println(list3.sortBy(_._2)(Ordering[Int].reverse))
-    println(list3.sortWith( _ < _ ))
+    println("___________________________________________________")
+    println(list3.sortWith( _._2 < _._2 ))
 
 
     /*5.函数的过滤
